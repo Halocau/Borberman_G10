@@ -6,6 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: e9316680bb89e7f47b188f5dab1462d6
+  - enabled: 1
     path: Assets/Scenes/Bomberman.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bomberman2.unity
+    guid: d6b750ce8a5f1dd49b19a30dc5d5b4e1
+  - enabled: 1
+    path: Assets/Scenes/Bomberman3.unity
+    guid: c2bdfd76279cb754fb4e01bdbc7b9564
+  - enabled: 1
+    path: Assets/Scenes/Bomberman4.unity
+    guid: c4197c7ae029cd244bc02c2598272160
+  - enabled: 1
+    path: Assets/Scenes/Bomberman5.unity
+    guid: 8082e117029b0a545a177343efaf7127
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
