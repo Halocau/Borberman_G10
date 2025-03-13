@@ -9,4 +9,9 @@ public class MainMenuScript : MonoBehaviour
 		SceneManager.LoadScene(Random.Range(1,6));
 	}
 
+	public void QuitGame()
+	{
+		Application.Quit();
+	}
+
 }

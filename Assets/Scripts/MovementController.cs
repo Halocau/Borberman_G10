@@ -7,6 +7,9 @@ public class MovementController : MonoBehaviour
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
 
+    [Header("UI")]
+    public GameObject UIPanel;
+
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
     public KeyCode inputDown = KeyCode.S;
@@ -87,7 +90,8 @@ public class MovementController : MonoBehaviour
     private void OnDeathSequenceEnded()
     {
         gameObject.SetActive(false);
-        GameManager.Instance.CheckWinState();
+		/*CanvasGroup cg = UIPanel.GetComponent<CanvasGroup>();*/
+        UIPanel.SetActive(false);
+		GameManager.Instance.CheckWinState();
     }
-
 }
